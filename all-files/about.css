@@ -1,0 +1,87 @@
+.about-banner {
+    background: url(Images/about-banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+
+.about-us {
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bolder;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.banner-text {
+    position: relative;
+    top: 120px;
+}
+
+.about .container {
+    margin: 100px auto;
+}
+
+.about .container .about-heading {
+    color: black !important;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.about-content {
+    margin: 40px auto;
+    /* width: 970px; */
+    color: #7A838B;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+.worked {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Counter {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-txt {
+    text-align: justify;
+}
+
+.Counter .counter-value {
+    font-size: 55px;
+    color: #FF565F;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+}
+
+.bottom {
+    font-size: 17px;
+}
+
+@media(max-width:768px) {
+    .Counter {
+        width: 90%;
+    }
+
+    .photos img {
+        width: 90%;
+    }
+}
+@media(max-width:450px){
+    .about-us{
+        font-size: 60px;
+    }
+    
+}
