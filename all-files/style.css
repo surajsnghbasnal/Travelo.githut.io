@@ -340,10 +340,10 @@ select {
     background-size: cover;
 }
 
-.des-post-container .bali {
-    background: url(Images/bali.jpg);
+/* .des-post-container .bali {
+    background: url(Images/Bali.jpg);
     background-size: cover;
-}
+} */
 
 .post-text {
     display: flex;
